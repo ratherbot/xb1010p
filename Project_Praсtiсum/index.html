@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/reg_style.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
 </head>
 
 <body class = "auto">
@@ -16,20 +19,32 @@
         <nav class="navigation">
             <ul class = "navigation-topics">
                 <li>
-                    <div class = "search">
+                    <a class = "site-icon-ref" href = "index.html">
+                        <img class = "site-icon" src = "img/site-icon.png">
+                    </a>
+                </li>
+                <li>
+                    <a class = "site-name" href = "index.html">
+                        History Fire
+                    </a>
+                </li>
+                <li>
+                    <a class = "search refs" href = "search.html">
                         <img class = "search-icon" src = "img/search-icon.svg">
                         <p>Найти автора</p>
-                    </div>
+                    </a>
                 </li>
                     
                 <li>
-                    <p>
+                    <a class = "refs" href = "#">
                         Войти
-                    </p>
+                    </a>
                 </li>
 
                 <li>
-                    <img class = "panzerkampfwagen-IV" src="img/panzerkampfwagen IV.svg">
+                    <a class = "refs" href = "#">
+                        <img class = "panzerkampfwagen-IV" src="img/panzerkampfwagen IV.svg">
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -61,9 +76,9 @@
         </section>
         <section class = "guest-section">
             <div class = "opportunities">
-                <h1 class = "g-header">В ногу со временем</h1>
-                <p class = "g-text">Здесь ты обязательно найдешь что-то интересное</p>
-                <ul class = "opportunities-list">
+                <h1 class = "g-header">Погрузитесь в мир истории</h1>
+                <p class = "g-text">Откройте для себя захватывающие исторические работы нашего сообщества</p>
+                <!---<ul class = "opportunities-list">
                     <li>
                         Читай статьи по вкусу
                     </li>
@@ -77,6 +92,7 @@
                         Заводи свой блог
                     </li>
                 </ul>
+                ----->
             </div>
             <a class = "join-button" href = "#">
                 Зарегистрироваться
@@ -101,7 +117,38 @@
                 </li>
             </ul>
         </section>
+
+        <section class = "popular">
+            <h2 class = "popular-header">Популярное</h2>
+            <ul class = "cards-popular">
+                <li>
+                    <div class = "circle"></div>
+                    <p class = "author">First_author</p>
+                    <p class = "subscribers">500 подписчиков</p>
+                    <a class = "open-blog refs" href = "#">
+                        Перейти в блог
+                    </a>
+                </li>
+                <li>
+                    <div class="circle"></div>
+                    <p class = "author">Second_author</p>
+                    <p class = "subscribers">1000 подписчиков</p>
+                    <a class = "open-blog refs" href ="#">
+                        Перейти в блог
+                    </a>
+                </li>
+                <li>
+                    <div class = "circle"></div>
+                    <p class = "author">Third_author</p>
+                    <p class = "subscribers">1500 подписчиков</p>
+                    <a class = "open-blog refs" href = "#">
+                        Перейти в блог
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
+
     <footer class = "footer">
         <ul class = "footer-topics">
             <li>
