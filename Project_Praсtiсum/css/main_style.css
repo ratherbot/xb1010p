@@ -15,6 +15,7 @@ body {
 	background-repeat: no-repeat;
 	background-position-x: center;
 	background-size: auto;
+	position: relative;
 }
 
 /*
@@ -43,7 +44,11 @@ body {
 	color: white;
 }
 
-.site-icon-ref {
+.login {
+
+}
+
+.hamburger-button {
 
 }
 
@@ -52,15 +57,15 @@ body {
 }
 
 .site-name {
-	font-family: Trade Winds;
+	font-family: PT Sans;
 	font-size: 40px;
-	font-weight: 400;
-	line-height: 58.13px;
+	font-weight: 700;
+	line-height: 51.76px;
 	letter-spacing: -0.04em;
-	text-align: left;
+	text-align: left;	
 	color: 	#FDF5DB;
 	text-decoration: none;
-	margin-right: 760px;
+	margin-right: 790px;
 }
 
 .navigation {
@@ -321,6 +326,127 @@ body {
 	box-sizing: border-box;
 	margin-left: auto;
 	margin-left: 40px;
+}
+
+.sections {
+	width: 380px;
+	height: 960px;
+	background: #2F2D27;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.sections-header {
+	display: flex;
+	flex-direction: row;
+	height: 90px;
+	background: #00000075;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	padding: 15px;
+	box-sizing: border-box;
+	align-items: center;
+	gap: 25px;
+}
+
+.sections-list {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 45px 70px;
+	margin: 0;
+	font-family: PT Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25.88px;
+	text-align: left;
+	color: #CBC0AE;
+}
+
+.sections-list-close-button {
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	gap: 18px;
+}
+
+.underline {
+	border-bottom: 2px solid #AB8C43;
+}
+
+.registration-form {
+	position: absolute;
+	width: 385px;
+	height: 500px;
+	padding: 0 35px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background: #D0C8BB;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	top: 200px;
+	right: 520px;
+}
+
+.registration-form-header {
+	font-family: PT Sans;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 31.06px;
+	text-align: center;
+	color: #2F2D27;
+	padding-top: 36px;
+	margin-bottom: 12px;
+}
+
+.registration-form-field {
+	width: 300px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 2px solid #D9D9D9;
+	background-color: inherit;
+}
+
+.registration-form-button {
+	font-family: PT Sans;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 16.82px;
+	text-align: left;
+	padding: 7px 95px;
+	background: #AB8C43;
+	border-radius: 20px;
+}
+
+.agreement {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	justify-content: center;
+}
+
+.agreement-text {
+	font-family: PT Sans;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12.94px;
+	text-align: left;
+	color: #2F2D27B2;
+}
+
+.already-have-acc {
+	display: flex;
+	flex-direction: row;
+	font-family: PT Sans;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 15.53px;
+	text-align: left;
+	color: #2F2D27B2;
+	gap: 5px;
+	margin-top: 150px;
+	margin-left: 100px;
 }
 
 .footer {

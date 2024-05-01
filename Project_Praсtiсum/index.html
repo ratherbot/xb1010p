@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
 </head>
 
-<body class = "auto">
+<body class = "auto opac">
     <header class = "header">
         <nav class="navigation">
             <ul class = "navigation-topics">
@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <a class = "site-name" href = "index.html">
-                        History Fire
+                        HISTORYFIRE
                     </a>
                 </li>
                 <li>
@@ -36,14 +36,14 @@
                 </li>
                     
                 <li>
-                    <a class = "refs" href = "#">
+                    <a class = "login refs" href = "#">
                         Войти
                     </a>
                 </li>
 
                 <li>
-                    <a class = "refs" href = "#">
-                        <img class = "panzerkampfwagen-IV" src="img/panzerkampfwagen IV.svg">
+                    <a class = "hamburger-button refs" href = "#">
+                        <img src="img/hamburger-button.svg">
                     </a>
                 </li>
             </ul>
@@ -52,7 +52,7 @@
     <main class = "main"> 
         <section class = "registration-block hidden">
             <a class = "close-button" href = "#">
-                <img src = "img/diff.svg">
+                <img class = "diff" src = "img/diff.svg">
             </a>
             <h1 class = "reg-header">Войдите или зарегистрируйтесь</h1>
             <a class = "black-button" href = "#">
@@ -63,7 +63,7 @@
             </a>
             <p class = "black-font text-between-blocks">Или</p>
             <div class = "black-button translucent">
-                <p class = "email-form">Эл.почта</p>
+                <input class = "email-form" id="textfield" name="textfield" type="text" placeholder="Электронная почта">
             </div>
             <a class = "black-button" href = "#">
                 <div>
@@ -147,6 +147,66 @@
                 </li>
             </ul>
         </section>
+        <div class = "sections hidden">
+            <div class = "sections-header">
+                <img src = "img/site-icon.png">
+                <h2 class = "site-name">HISTORYFIRE</h2>
+            </div>
+            <ul class = "sections-list">
+                <li>
+                    <a class = "sections-list-close-button section refs" href = "#">
+                        <img src = "img/house-icon.svg">
+                        <p>Главная</p>
+                    </a>
+                </li>
+                <li>
+                    <a class = "section underline refs" href = "#">
+                        <img src="img/star-icon.svg">
+                        <p>Рейтинг</p>
+                    </a>
+                </li>
+                <li class="section">
+                    <p>Вы</p>
+                    <img src = "img/right-slide-icon.svg">
+                </li>
+                <li>
+                    <a class = "section refs" href = "profile.html">
+                        <img src = "img/user-icon.svg">
+                        <p>Профиль</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="section refs" href = "#">
+                        <img src = "img/message-icon.svg">
+                        <p>Сообщения</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="section underline refs" href = "#">
+                        <img src = "img/favourite-icon.svg">
+                        <p>Избранное</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class = "registration-form hidden">
+            <h2 class = "registration-form-header">Регистрация</h2>
+            <input class = "registration-form-field" id="textfield" name="textfield" type="text" placeholder="Имя">
+            <input class = "registration-form-field" id="textfield" name="textfield" type="text" placeholder="Электронная почта">
+            <input class = "registration-form-field" id="textfield" name="textfield" type="text" placeholder="Придумайте пароль">
+            <input class = "registration-form-field" id="textfield" name="textfield" type="text" placeholder="Повторите пароль">
+            <a class = "registration-form-button refs" href = "#">
+                Зарегистрироваться
+            </a>
+            <div class = "agreement">
+                <input type = "checkbox">
+                <p class = "agreement-text">Я согласен/а на обработку персональных данных</p>
+            </div>
+            <a class = "already-have-acc refs" href = "#">
+                <p>Уже есть аккаунт</p>
+                <img src = "img/arrow_forward-gray.svg">
+            </a>
+        </div>
     </main>
 
     <footer class = "footer">
